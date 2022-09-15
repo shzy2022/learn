@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/MP_mybatis.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/MP_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/MP_spring_mybatis.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/MP_spring_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/mybatis_plus_01_quickstart.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/mybatis_plus_01_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_plus_02_springboot/mybatis_plus_02_springboot.iml" filepath="$PROJECT_DIR$/mybatis_plus_02_springboot/mybatis_plus_02_springboot.iml" />
     </modules>
   </component>
 </project>

@@ -9,12 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MP_mybatis" />
         <module name="MP_spring_mybatis" />
+        <module name="mybatis_plus_02_springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MP_mybatis" target="16" />
       <module name="MP_spring_mybatis" target="16" />
+      <module name="MP_springboot_mybatis" target="16" />
       <module name="mybatis_plus_01_quickstart" target="1.5" />
+      <module name="mybatis_plus_02_springboot" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis_plus_02_springboot" options="-parameters" />
+    </option>
   </component>
 </project>
