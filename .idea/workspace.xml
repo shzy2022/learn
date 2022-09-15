@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df0e178-162b-4461-b617-69c39727d73c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/MP_spring_mybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/java/com/hyl/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/java/com/hyl/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/test/java/com/hyl/dao/DaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/java/com/hyl/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/java/com/hyl/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/java/com/hyl/config/jdbcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/main/resources/applicationContext.xml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/test/java/com/hyl/dao/DaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/src/test/java/com/hyl/dao/DaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663236721822</updated>
-      <workItem from="1663236723135" duration="13654000" />
+      <workItem from="1663236723135" duration="14957000" />
     </task>
     <task id="LOCAL-00001" summary="01、第一次代码，整合原Mybatis和mybatis plus">
       <created>1663243362835</created>
@@ -173,16 +156,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663244425641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="03.spring mybatis MP 整合&#10;注意lombok使用&#10;构建SqlsessionFactory的是MybatisSqlSessionFactoryBuild而不是SqlSessionFactoryBean">
+      <created>1663251552898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251552898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="01、第一次代码，整合原Mybatis和mybatis plus" />
     <MESSAGE value="02、使用mybatis的xml映射查询User" />
     <MESSAGE value="03.整合Mybatis plus 和mybatis并查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.整合Mybatis plus 和mybatis并查询" />
+    <MESSAGE value="03.spring mybatis MP 整合&#10;注意lombok使用&#10;构建SqlsessionFactory的是MybatisSqlSessionFactoryBuild而不是SqlSessionFactoryBean" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.spring mybatis MP 整合&#10;注意lombok使用&#10;构建SqlsessionFactory的是MybatisSqlSessionFactoryBuild而不是SqlSessionFactoryBean" />
   </component>
 </project>
