@@ -2,15 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MP_mybatis" />
+        <module name="MP_spring_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MP_mybatis" target="16" />
+      <module name="MP_spring_mybatis" target="16" />
       <module name="mybatis_plus_01_quickstart" target="1.5" />
     </bytecodeTargetLevel>
   </component>

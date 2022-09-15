@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/MP_mybatis.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/MP_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/MP_spring_mybatis.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_spring_mybatis/MP_spring_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/mybatis_plus_01_quickstart.iml" filepath="$PROJECT_DIR$/mybatis_plus_01_quickstart/mybatis_plus_01_quickstart.iml" />
     </modules>
   </component>

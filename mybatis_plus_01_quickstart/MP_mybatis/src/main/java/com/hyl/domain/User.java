@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 @TableName("tb_user")
 public class User {
     private Long id;
-    private String user_name;
+    private String username;
     private String password;
     private String name;
     private Integer age;
@@ -20,11 +20,11 @@ public class User {
     }
 
     public String getUsername() {
-        return user_name;
+        return username;
     }
 
     public void setUsername(String username) {
-        this.user_name = username;
+        this.username = username;
     }
 
     public String getPassword() {
@@ -63,7 +63,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username='" + user_name + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
                 ", age=" + age +
