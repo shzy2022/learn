@@ -1,8 +1,11 @@
 package com.hyl.domain;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("tb_user")
 public class User {
     private Long id;
-    private String username;
+    private String user_name;
     private String password;
     private String name;
     private Integer age;
@@ -17,11 +20,11 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return user_name;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.user_name = username;
     }
 
     public String getPassword() {
@@ -60,7 +63,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", username='" + user_name + '\'' +
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
                 ", age=" + age +

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df0e178-162b-4461-b617-69c39727d73c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/mybatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/mybatis_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/java/com/hyl/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/com/hyl/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/com/hyl/dao/UserDao.xml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/test/java/com/hyl/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/test/java/com/hyl/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/target/classes/com/hyl/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/target/classes/com/hyl/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/target/classes/com/hyl/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/target/test-classes/com/hyl/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/target/test-classes/com/hyl/test/UserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663236721822</updated>
-      <workItem from="1663236723135" duration="6418000" />
+      <workItem from="1663236723135" duration="7171000" />
     </task>
     <task id="LOCAL-00001" summary="01、第一次代码，整合原Mybatis和mybatis plus">
       <created>1663243362835</created>
@@ -89,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663243362835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="02、使用mybatis的xml映射查询User">
+      <created>1663243852837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243852837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="01、第一次代码，整合原Mybatis和mybatis plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="01、第一次代码，整合原Mybatis和mybatis plus" />
+    <MESSAGE value="02、使用mybatis的xml映射查询User" />
+    <option name="LAST_COMMIT_MESSAGE" value="02、使用mybatis的xml映射查询User" />
   </component>
 </project>
