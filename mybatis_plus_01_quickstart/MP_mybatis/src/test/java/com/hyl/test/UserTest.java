@@ -1,5 +1,6 @@
 package com.hyl.test;
 
+import com.hyl.dao.UserDao;
 import com.hyl.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -19,7 +20,14 @@ public class UserTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession session = sqlSessionFactory.openSession();
-        List<User> users = session.selectList("com.hyl.dao.UserDao.selectAll");
-        System.out.println(users);
+
+//        List<User> users = session.selectList("com.hyl.dao.UserDao.selectAll");
+//        使用xml映射
+        UserDao userDao = session.getMapper(UserDao.class);
+        List<User> users = userDao.selectAll();
+        for(User user:users){
+            System.out.println(users);
+        }
+
     }
 }

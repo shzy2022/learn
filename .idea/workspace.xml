@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4df0e178-162b-4461-b617-69c39727d73c" name="Changes" comment="" />
+    <list default="true" id="4df0e178-162b-4461-b617-69c39727d73c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/mybatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstart/MP_mybatis/src/main/resources/mybatis_config.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663236721822</updated>
-      <workItem from="1663236723135" duration="6206000" />
+      <workItem from="1663236723135" duration="6418000" />
     </task>
+    <task id="LOCAL-00001" summary="01、第一次代码，整合原Mybatis和mybatis plus">
+      <created>1663243362835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243362835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="01、第一次代码，整合原Mybatis和mybatis plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="01、第一次代码，整合原Mybatis和mybatis plus" />
   </component>
 </project>

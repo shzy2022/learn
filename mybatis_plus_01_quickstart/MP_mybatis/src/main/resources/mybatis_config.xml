@@ -23,12 +23,13 @@
         </environment>
     </environments>
     <mappers>
-
+<!--class和package都对应了接口，使用接口的话可以用mapper映射-->
+<!--    接口名和xml名要一致    -->
 <!--    将包内的映射器接口实现全部注册为映射器    -->
-        <package name="com.hyl.dao"/>
+<!--        <package name="com.hyl.dao"/>-->
 
         <!--    class配接口类   -->
-<!--        <mapper class="com.hyl.dao.UserDao"/>-->
+        <mapper class="com.hyl.dao.UserDao"/>
 
 <!--   可以，resource对应的是斜杠  /     -->
 <!--        <mapper resource="com/hyl/dao/UserDao.xml"></mapper>-->
