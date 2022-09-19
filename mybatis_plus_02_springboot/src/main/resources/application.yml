@@ -8,4 +8,25 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    驼峰映射
+    map-underscore-to-camel-case: true
+
+  #  不能开启mybatis配置路径
+#  config-location: classpath:mybatis-config.xml
+#  Property 'configuration' and 'configLocation' can not specified with together
+
+#    开启mapper配置路径
+  mapper-locations: classpath:com/hyl/dao/*.xml
+#  别名
+  type-aliases-package: com.hyl.domain
+  global-config:
+    db-config:
+#      表前缀
+      table-prefix: tb_
+      logic-not-delete-value: 2
+      logic-delete-value: 3
+      logic-delete-field: deleted
+  type-enums-package: com.hyl.enums
+
+
 

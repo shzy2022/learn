@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df0e178-162b-4461-b617-69c39727d73c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/config/mybatisplusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_reload4j_reload4j_1_2_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_reload4j_1_7_36.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/enums/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/plugin/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/resources/com/hyl/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/test/java/com/hyl/ActiveRecodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/config/mybatisplusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/config/mybatisplusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/java/com/hyl/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/test/java/com/hyl/MybatisPlus02SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_02_springboot/src/test/java/com/hyl/MybatisPlus02SpringbootApplicationTests.java" afterDir="false" />
     </list>
@@ -26,6 +28,7 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -63,6 +66,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15555556" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,43 +76,76 @@
       <recent name="E:\IdeaProjects\mybatispluslearn\mybatis_plus_01_quickstart\MP_mybatis\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\mybatispluslearn\mybatis_plus_02_springboot\src\main\resources\com\hyl\dao" />
       <recent name="E:\IdeaProjects\mybatispluslearn\mybatis_plus_01_quickstart\MP_mybatis\src\main\java\com\hyl\dao" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hyl" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlus02SpringbootApplicationTests.selecrpagetest">
-    <configuration name="MybatisPlus02SpringbootApplicationTests.TestInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ActiveRecodeTest.TestUpdateById">
+    <configuration name="ActiveRecodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hyl.ActiveRecodeTest" />
       <module name="mybatis_plus_02_springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyl.*" />
+          <option name="PATTERN" value="com.hyl.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveRecodeTest.TestDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_02_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyl.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hyl" />
-      <option name="MAIN_CLASS_NAME" value="com.hyl.MybatisPlus02SpringbootApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.hyl.ActiveRecodeTest" />
+      <option name="METHOD_NAME" value="TestDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveRecodeTest.TestInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_02_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyl.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyl" />
+      <option name="MAIN_CLASS_NAME" value="com.hyl.ActiveRecodeTest" />
       <option name="METHOD_NAME" value="TestInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus02SpringbootApplicationTests.Updata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActiveRecodeTest.TestSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_plus_02_springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyl.*" />
+          <option name="PATTERN" value="com.hyl.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hyl" />
-      <option name="MAIN_CLASS_NAME" value="com.hyl.MybatisPlus02SpringbootApplicationTests" />
-      <option name="METHOD_NAME" value="Updata" />
+      <option name="MAIN_CLASS_NAME" value="com.hyl.ActiveRecodeTest" />
+      <option name="METHOD_NAME" value="TestSelectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus02SpringbootApplicationTests.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActiveRecodeTest.TestUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_plus_02_springboot" />
       <extension name="coverage">
         <pattern>
@@ -117,40 +154,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hyl" />
-      <option name="MAIN_CLASS_NAME" value="com.hyl.MybatisPlus02SpringbootApplicationTests" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisPlus02SpringbootApplicationTests.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_02_springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hyl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hyl" />
-      <option name="MAIN_CLASS_NAME" value="com.hyl.MybatisPlus02SpringbootApplicationTests" />
-      <option name="METHOD_NAME" value="deleteById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisPlus02SpringbootApplicationTests.selecrpagetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_02_springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hyl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hyl" />
-      <option name="MAIN_CLASS_NAME" value="com.hyl.MybatisPlus02SpringbootApplicationTests" />
-      <option name="METHOD_NAME" value="selecrpagetest" />
+      <option name="MAIN_CLASS_NAME" value="com.hyl.ActiveRecodeTest" />
+      <option name="METHOD_NAME" value="TestUpdateById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisPlus02SpringbootApplicationTests.selecrpagetest" />
-        <item itemvalue="JUnit.MybatisPlus02SpringbootApplicationTests.TestInsert" />
-        <item itemvalue="JUnit.MybatisPlus02SpringbootApplicationTests.delete" />
-        <item itemvalue="JUnit.MybatisPlus02SpringbootApplicationTests.deleteById" />
-        <item itemvalue="JUnit.MybatisPlus02SpringbootApplicationTests.Updata" />
+        <item itemvalue="JUnit.ActiveRecodeTest.TestUpdateById" />
+        <item itemvalue="JUnit.ActiveRecodeTest.TestSelectList" />
+        <item itemvalue="JUnit.ActiveRecodeTest.TestDelete" />
+        <item itemvalue="JUnit.ActiveRecodeTest.TestInsert" />
+        <item itemvalue="Application.ActiveRecodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +187,11 @@
       <option name="presentableId" value="Default" />
       <updated>1663236721822</updated>
       <workItem from="1663236723135" duration="17356000" />
-      <workItem from="1663299102714" duration="12230000" />
+      <workItem from="1663299102714" duration="13028000" />
+      <workItem from="1663391997186" duration="3881000" />
+      <workItem from="1663413444300" duration="611000" />
+      <workItem from="1663491989688" duration="9880000" />
+      <workItem from="1663546248983" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="01、第一次代码，整合原Mybatis和mybatis plus">
       <created>1663243362835</created>
@@ -226,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663255029935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="03.Mybatis 基础CRUD">
+      <created>1663324476334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663324476334</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +268,7 @@
     <MESSAGE value="03.spring mybatis MP 整合&#10;注意lombok使用&#10;构建SqlsessionFactory的是MybatisSqlSessionFactoryBuild而不是SqlSessionFactoryBean" />
     <MESSAGE value="03.spring mybatis MP 整合(注解版)&#10;注意lombok使用&#10;构建SqlsessionFactory的是MybatisSqlSessionFactoryBean而不是SqlSessionFactoryBean" />
     <MESSAGE value="03.springboot mybatis MP 整合" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.springboot mybatis MP 整合" />
+    <MESSAGE value="03.Mybatis 基础CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.Mybatis 基础CRUD" />
   </component>
 </project>

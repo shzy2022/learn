@@ -17,8 +17,9 @@ import java.util.List;
 class MybatisPlus02SpringbootApplicationTests {
     @Autowired
     private UserDao userDao;
+
     @Test
-    void contextLoads() {
+    void TestSelectList() {
         List<User> users = userDao.selectList(null);
         for (User user:users
              ) {
@@ -30,30 +31,29 @@ class MybatisPlus02SpringbootApplicationTests {
     @Test
     void TestInsert(){
         User user = new User();
-        user.setUsername("huayang");
+        user.setUserName("huayang");
         user.setName("洋桑");
         user.setAge(22);
         user.setEmail("a.qq.com");
         user.setPassword("abc123");
 //        user.setId(11L);
-        user.setAddr("aaa");
+//        user.setAddr("深圳");
         int res = userDao.insert(user);
-
         System.out.println(res);
         System.out.println(user);
     }
 
     @Test
-    void UpdataByID(){
+    void TestUpdataByID(){
         User user = new User();
-//        user.setId(1L);
-        user.setUsername("dahuang");
+        user.setId(8L);
+        user.setUserName("dahuang");
         user.setName("喵桑");
         userDao.updateById(user);
     }
 
     @Test
-    void Updata(){
+    void TestUpdata(){
 //        User user = new User();
 ////        user.setId(1L);
 //        user.setUsername("dahuang");
@@ -71,17 +71,32 @@ class MybatisPlus02SpringbootApplicationTests {
     }
 
     @Test
-    void delete(){
+    void TestDelete(){
         User u = new User();
-        u.setUsername("huayang");
+        u.setUserName("huayang");
         u.setPassword("abc123");
         UpdateWrapper<User> t = new UpdateWrapper<>(u);
         userDao.delete(t);
     }
 
+//    通过ID删除
+    @Test
+    void TestDeleteByID(){
+//        User user = new User();
+//        user.setId(8L);
+//        //        混在数据中有无影响
+//        user.setUsername("dahuang");
+//        user.setName("喵桑");
+//        int result = userDao.delete(user);
+        UpdateWrapper wrapper = new UpdateWrapper();
+        wrapper.eq("id",8L);
+        int result = userDao.delete(wrapper);
+        System.out.println("result----->"+result);
+    }
+
 //    分页查询
     @Test
-    void selecrpagetest(){
+    void Testselecrpage(){
         Page<User> page = new Page(1,3);
         Page<User> userPage = userDao.selectPage(page, null);
         System.out.println("当前页"+userPage.getCurrent());
@@ -96,5 +111,24 @@ class MybatisPlus02SpringbootApplicationTests {
             System.out.println(user);
         }
     }
+
+    @Test
+    void TestSelectCount(){
+        QueryWrapper wrapper = new QueryWrapper();
+        wrapper.le("id","3");
+        Integer integer = userDao.selectCount(wrapper);
+        System.out.println("result----->"+integer);
+    }
+
+    @Test
+    void TestSelectAll(){
+        List<User> users = userDao.selectAll();
+        for (User user:users
+             ) {
+            System.out.println(user);
+        }
+
+    }
+
 
 }
